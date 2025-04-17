@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: bisque;
+}
+
+/* nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+}
+
+#logo img {
+  width: 300px;
+} */
