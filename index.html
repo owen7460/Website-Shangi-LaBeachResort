@@ -7,6 +7,7 @@
   <title>Shangi-La Beach Resort</title>
   <link rel="icon" type="image/png" href="/images/favicon.png">
   <link rel="stylesheet" href="styles.css">
+  <script src="/script.js" defer></script>
 </head>
 
 <body>
@@ -20,6 +21,9 @@
         <li><a href="#">Accommodations</a></li>
         <li><a href="#">Amenities</a></li>
         <li><a href="#">Contact</a></li>
+        <li><img src="" alt="this is an icon" id="icon"></li>
+        <li><a id="weather" href="#"></a></li>
+        <li><a id="description" href="#"></a></li>
       </ul>
     </nav>
   </header>
@@ -39,65 +43,120 @@
     </section>
 
     <section>
-      <h2>Experience Unforgettable Moments</h2>
-      <div>
-        <h3>Private Beach Access</h3>
-        <p>Step onto our pristine, white-sand beach.</p>
+      <h2 class="sectionTitle">Experience Unforgettable Moments</h2>
+      <div class="branchA">
+        <div class="detailA" id="privateBeach">
+          <div class="descriptionA">
+            <h3>Private Beach Access</h3>
+            <p>Step onto our pristine, white-sand beach.</p>
+          </div>
+        </div>
+        <div class="detailA" id="infinityPool">
+          <div class="descriptionA">
+            <h3>Infinity Pool</h3>
+            <p>Relax by our stunning oceanfront infinity pool.</p>
+          </div>
+        </div>
       </div>
-      <div>
-        <h3>Infinity Pool</h3>
-        <p>Relax by our stunning oceanfront infinity pool.</p>
+
+      <div class="branchA">
+        <div class="detailA" id="world-ClassSpa">
+          <div class="descriptionA">
+            <h3>World-Class Spa</h3>
+            <p>Rejuvenate your mind and body at our spa.</p>
+          </div>
+        </div>
+        <div class="detailA" id="dining">
+          <div class="descriptionA">
+            <h3>Exquisite Dining</h3>
+            <p>Savor culinary delights at our restaurants.</p>
+          </div>
+        </div>
       </div>
-      <div>
-        <h3>World-Class Spa</h3>
-        <p>Rejuvenate your mind and body at our spa.</p>
-      </div>
-      <div>
-        <h3>Exquisite Dining</h3>
-        <p>Savor culinary delights at our restaurants.</p>
       </div>
     </section>
 
     <section>
-      <h2>Our Luxurious Accommodations</h2>
-      <div>
-        <h3>Ocean View Deluxe Room</h3>
-        <p>Enjoy stunning ocean views from your private balcony.</p>
-        <a href="#">[View Details]</a>
-      </div>
-      <div>
-        <h3>Beachfront Suite</h3>
-        <p>Step directly onto the sand from your spacious suite.</p>
-        <a href="#">[View Details]</a>
-      </div>
-      <div>
-        <h3>Garden View Family Room</h3>
-        <p>Perfect for families, with ample space and garden views.</p>
-        <a href="#">[View Details]</a>
+      <h2 class="sectionTitle">Our Luxurious Accommodations</h2>
+      <div class="branchA">
+        <div class="detailA detailB" id="deluxeRoom">
+          <div class="gradient-overlay"></div>
+          <div class="descriptionB">
+            <h3>Ocean View Deluxe Room</h3>
+            <p>Enjoy stunning ocean views from your private balcony.</p>
+            <a href="#">[View Details]</a>
+          </div>
+        </div>
+
+        <div class="detailA detailB" id="beachfront">
+          <div class="gradient-overlay"></div>
+          <div class="descriptionB">
+            <h3>Beachfront Suite</h3>
+            <p>Step directly onto the sand from your spacious suite.</p>
+            <a href="#">[View Details]</a>
+          </div>
+        </div>
+
+        <div class="detailA detailB" id="familyRoom">
+          <div class="gradient-overlay"></div>
+          <div class="descriptionB">
+            <h3>Garden View Family Room</h3>
+            <p>Perfect for families, with ample space and garden views.</p>
+            <a href="#">[View Details]</a>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section>
-      <h2>What Our Guests Are Saying</h2>
-      <div>
-        <p>"Our stay at Shangri La was absolutely perfect! The service was impeccable, and the views were breathtaking."
-        </p>
-        <p>- Sarah M.</p>
+    <div class="parallax"></div>
+
+    <section class="reviewSection">
+      <h2 class="sectionTitle">What Our Guests Are Saying</h2>
+
+      <div class="review">
+        <figure>
+          <img class="portrait" src="images/review-1.jpeg" alt="portraitSarah">
+        </figure>
+        <div class="reviewWords">
+          <p>"Our stay at Shangri La was absolutely perfect! The service was impeccable, and the views were
+            breathtaking."
+          </p>
+          <p class="name">- Sarah M.</p>
+        </div>
       </div>
 
-      <div>
-        <p>"The beachfront suite was amazing! Waking up to the sound of the waves and stepping right onto the sand was
-          incredible."</p>
-        <p>- John B.</p>
+      <div class="review">
+        <figure>
+          <img class="portrait" src="images/review-2.jpeg" alt="portraitJohn">
+        </figure>
+        <div class="reviewWords">
+          <p>"The beachfront suite was amazing! Waking up to the sound of the waves and stepping right onto the sand was
+            incredible."</p>
+          <p class="name">- John B.</p>
+        </div>
       </div>
-
-      <a href="#">[Read More Testimonials]</a>
-
+      <a href="#" id="readMore">[Read More Testimonials]</a>
     </section>
 
   </main>
-  <footer></footer>
+  <footer>
+    <div>
+      <h2>Contact us</h2>
+      <span id="footerYear"></span>
+      <ul>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Tiktok</a></li>
+      </ul>
+      <div id="last">
+        <img id="logo" src="images/logo.svg" alt="Shangi-La logo">
+        <p id="copyRight">&copyShangi-La Beach Resort;</p>
+      </div>
+    </div>
+
+  </footer>
 
 </body>
+
 
 </html>

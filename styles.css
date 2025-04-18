@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
   font-family: Didot;
-  /* padding: 0;
-  margin: 0; */
+  padding: 0;
+  margin: 0;
 }
 
 header {
-  background-color: rgb(108, 99, 99);
+  background-color: rgb(113, 102, 123);
 }
 
 nav {
@@ -21,10 +21,14 @@ nav {
   height: 60px;
 }
 
+ul {
+  list-style: none;
+}
+
 nav ul {
   display: flex;
+  align-items: center;
   gap: 2rem;
-  list-style: none;
 }
 
 nav a {
@@ -42,11 +46,14 @@ nav a {
   background-color: rgb(232, 232, 232);
 }
 
-nav ul li a {
+a {
   text-decoration: none;
+  color: white;
+}
+
+nav ul li a {
   font-size: 18px;
   font-weight: bold;
-  color: white;
 }
 
 .hero {
@@ -76,6 +83,10 @@ nav ul li a {
   top: 30%;
 }
 
+.hero h1 {
+  font-size: 40px;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -84,4 +95,180 @@ nav ul li a {
   height: 100%;
   background: rgba(0, 0, 0, 0.3);
   z-index: 0.5;
+}
+
+.sectionTitle {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.branchA {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.detailA {
+  color: white;
+  height: 500px;
+  width: 400px;
+  min-width: 400px;
+  border-radius: 15px;
+  position: relative;
+  transition: all 0.3s ease;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.detailA:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transform: scale(1.02);
+}
+
+.descriptionA {
+  padding: 1.5rem;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: rgb(113, 102, 123);
+  padding-left: 20px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+
+#privateBeach {
+  background-image: url(/images/beach-swing.jpeg);
+}
+
+#infinityPool {
+  background-image: url(/images/beach-huts.jpeg);
+}
+
+#world-ClassSpa {
+  background-image: url(/images/world-classSPA.jpeg);
+}
+
+#dining {
+  background-image: url(/images/dining.jpeg);
+}
+
+.detailB {
+  width: 350px;
+  min-width: 350px;
+  z-index: 0;
+}
+
+.descriptionB {
+  padding: 1rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  text-align: right;
+  z-index: 1;
+}
+
+.descriptionB a {
+  color: rgb(149, 240, 240);
+  line-height: 35px;
+}
+
+#deluxeRoom {
+  background-image: url(/images/room.jpeg);
+}
+
+#beachfront {
+  background-image: url(/images/beachfront.jpeg);
+}
+
+#familyRoom {
+  background-image: url(/images/familyRoom.jpeg);
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+  z-index: 0.5;
+}
+
+.parallax {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  background-image: url('/images/couple.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.reviewSection {
+  text-align: center;
+}
+
+.review {
+  margin: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.portrait {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #e2e2e2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.reviewWords {
+  width: 350px;
+}
+
+.name {
+  text-align: right;
+}
+
+#readMore {
+  color: rgb(38, 89, 218);
+
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 100px 0px 30px 0px;
+  background-color: rgb(113, 102, 123);
+}
+
+footer h2 {
+  color: white;
+}
+
+footer p {
+  color: white;
+}
+
+footer ul {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+span {
+  line-height: 50px;
+  color: white;
 }
