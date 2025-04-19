@@ -175,7 +175,7 @@ nav ul li a {
 
 .descriptionB a {
   color: rgb(149, 240, 240);
-  line-height: 35px;
+  line-height: 1.2;
 }
 
 #deluxeRoom {
@@ -221,6 +221,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   gap: 3em;
+
 }
 
 .portrait {
@@ -234,6 +235,7 @@ nav ul li a {
 
 .reviewWords {
   width: 350px;
+  text-align: left;
 }
 
 .name {
@@ -269,6 +271,65 @@ footer ul {
 }
 
 span {
-  line-height: 50px;
+  line-height: 1.2;
   color: white;
+}
+
+hr {
+  width: 65%;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.2);
+  margin: 1rem auto;
+}
+
+.notes {
+  width: 65%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.notes p {
+  line-height: 2.6;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5.5em;
+  margin: 0 3em 0 3em;
+}
+
+.branchB {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.branchB img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.detailC {
+  margin: 20px auto;
+  text-align: center;
+  width: 700px;
+}
+
+.detailC p {
+  margin: 15px 0;
+}
+
+.detailC ul li {
+  position: relative;
+  padding-left: 1em;
+}
+
+.detailC ul li::before {
+  content: "-";
+  position: absolute;
+  left: 0;
+  color: #555;
 }
