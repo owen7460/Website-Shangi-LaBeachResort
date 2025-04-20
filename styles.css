@@ -145,19 +145,19 @@ nav ul li a {
 
 
 #privateBeach {
-  background-image: url(/images/beach-swing.jpeg);
+  background-image: url(images/beach-swing.jpeg);
 }
 
 #infinityPool {
-  background-image: url(/images/beach-huts.jpeg);
+  background-image: url(images/beach-huts.jpeg);
 }
 
 #world-ClassSpa {
-  background-image: url(/images/world-classSPA.jpeg);
+  background-image: url(images/world-classSPA.jpeg);
 }
 
 #dining {
-  background-image: url(/images/dining.jpeg);
+  background-image: url(images/dining.jpeg);
 }
 
 .detailB {
@@ -181,15 +181,15 @@ nav ul li a {
 }
 
 #deluxeRoom {
-  background-image: url(/images/room.jpeg);
+  background-image: url(images/room.jpeg);
 }
 
 #beachfront {
-  background-image: url(/images/beachfront.jpeg);
+  background-image: url(images/beachfront.jpeg);
 }
 
 #familyRoom {
-  background-image: url(/images/familyRoom.jpeg);
+  background-image: url(images/familyRoom.jpeg);
 }
 
 .gradientOverlay {
