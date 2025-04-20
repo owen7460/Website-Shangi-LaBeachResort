@@ -14,3 +14,10 @@ fetch("https://api.openweathermap.org/data/2.5/weather?q=Cancun&appid=824c5bd36e
     description.innerHTML = `Description: ${data.weather[0].description}`
     icon.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
   })
+
+gsap.to(".my-title", {
+  opacity: 1,
+  y: 0,
+  duration: 1.2,
+  ease: "power4.out"
+});
